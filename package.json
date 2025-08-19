@@ -1,0 +1,63 @@
+{
+  "name": "sphere-ai",
+  "version": "0.1.0",
+  "description": "Finds and books appointments for providers who speak your native language",
+  "main": "src/node/index.js",
+  "scripts": {
+    "start": "node src/node/index.js",
+    "dev": "nodemon src/node/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/node/",
+    "lint:fix": "eslint src/node/ --fix",
+    "format": "prettier --write src/node/"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "appointments",
+    "language",
+    "booking"
+  ],
+  "author": "Satoe Sakuma",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "moment": "^2.29.4",
+    "googleapis": "^128.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js", "**/tests/**/*.spec.js", "**/tests/**/test_*.js"],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssakuma4593/sphere-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssakuma4593/sphere-ai/issues"
+  },
+  "homepage": "https://github.com/ssakuma4593/sphere-ai#readme"
+}
