@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Min-Jae Kim",
+    "specialty": "Primary Care",
+    "location": "Boston, MA",
+    "languages": ["Korean", "English"],
+    "phone": "617-555-1234"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Aiko Tanaka",
+    "specialty": "Cardiology",
+    "location": "Cambridge, MA",
+    "languages": ["Japanese", "English"],
+    "phone": "617-555-5678"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Luis Rodríguez",
+    "specialty": "Pediatrics",
+    "location": "Brookline, MA",
+    "languages": ["Spanish", "English"],
+    "phone": "617-555-9012"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sara Chen",
+    "specialty": "Dermatology",
+    "location": "Quincy, MA",
+    "languages": ["Mandarin", "English"],
+    "phone": "617-555-3456"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Emily Johnson",
+    "specialty": "Mental Health",
+    "location": "Somerville, MA",
+    "languages": ["English"],
+    "phone": "617-555-7890"
+  }
+]
